@@ -15,26 +15,32 @@
     padding: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: black;
+}
+
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 40px;
 }
 
 header > h1 {
+    padding-top: 50px;
     font-size: 10vw;
     font-family: 'Passion One', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 5px;
 }
 
@@ -42,35 +48,46 @@ a:hover {
     text-decoration: underline;
 }
 
-
-
 section {
     font-family: 'Sriracha';
-    font-size: 4vw;
-    line-height: 11vw;
+    font-size: 3vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
 }
 
-section.clean {
-    padding: 70px 40% 70px 20px;
-}
-
-section.image {
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    padding: 70px 40% 70px 20px;
+section.normal {
+    background-color: white;
 }
 
 section.image > p {
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.308);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section.image {
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 section#image01 {
-    background-image: url(imagens/background001.jpg);
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
 }
 
 section#image02 {
-    background-image: url(imagens/background002.jpg);
+    background-image: url('imagens/background002.jpg');
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 12px;
 }
