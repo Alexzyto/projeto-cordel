@@ -5,6 +5,11 @@
     src: url(fontes/PassionOne-Bold.ttf);
 }
 
+@font-face {
+    font-family: 'Sriracha';
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -37,14 +42,35 @@ a:hover {
     text-decoration: underline;
 }
 
-main {
-    margin: 40px 20px;
+
+
+section {
+    font-family: 'Sriracha';
+    font-size: 4vw;
+    line-height: 11vw;
 }
 
 section.clean {
-    font-size: 5vw;
+    padding: 70px 40% 70px 20px;
 }
 
 section.image {
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 70px 40% 70px 20px;
+}
 
+section.image > p {
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+section#image01 {
+    background-image: url(imagens/background001.jpg);
+}
+
+section#image02 {
+    background-image: url(imagens/background002.jpg);
 }
