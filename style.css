@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Passion One';
+    src: url(fontes/PassionOne-Bold.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header > h1 {
+    font-size: 10vw;
+    font-family: 'Passion One', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 40px 20px;
+}
+
+section.clean {
+    font-size: 5vw;
+}
+
+section.image {
+
+}
